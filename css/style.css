@@ -1,0 +1,247 @@
+/* This is index.html file section */
+.banner-container{
+    /* background-color:#0D6EFD; */
+    background-color: #40E0D0;
+
+}
+
+.banner-column{
+    background-color: #FFC107;
+}
+
+.navbar{
+    top: 0;
+    position: sticky;
+    z-index: 2;
+}
+
+
+
+/* This About.html file section*/
+
+@media only screen and (max-width: 768px){
+    .about-container{
+        background-color: #40E0D0;
+        
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .about-container{
+        background-color: #40E0D0;
+        height: 100vh
+        
+    }
+}
+
+
+/* This is Resume.html file section */
+@media only screen and (max-width: 768px){
+    .resume-container{
+        background-color: #40E0D0;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .resume-container{
+        background-color: #40E0D0;
+        height: 100%
+    }
+}
+
+
+/* This is Services.html section */
+
+@media only screen and (max-width: 768px){
+    .services-container{
+        /* background-color: #0DCAF0; */
+        background-color: #40E0D0;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .services-container{
+        /* background-color: #0DCAF0; */
+        background-color: #40E0D0;
+        
+    }
+}
+
+.gig-image{
+    height: 250px;
+    width: 450px;
+}
+
+.gig-modified-image{
+    height: 100px;
+    width: 100px;
+}
+
+@media only screen and (max-width: 768px){
+    .fiverr-account{
+        border-bottom: none;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        border-bottom: none;
+        
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .fiverr-account{
+        border-right: none;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        border-right: none;
+        
+    }
+}
+
+/* .fiverr-account{
+    border-right: none;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-right: none;
+} */
+
+.gig-link-tag{
+    text-decoration-line: none;
+}
+
+
+
+
+
+/* This is contact.html section */
+
+
+
+
+.contact{
+    /* background-color: #0DCAF0; */
+    background-color: #40E0D0;
+}
+
+.card_class{
+    background-color:wheat;
+}
+
+.circle_profile{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 35px;
+    /* text-align: center; */
+    /* color: black!important; */
+    
+    
+}
+
+
+.social_profile a{
+    /* color: black !important; */
+    text-decoration-line: none;
+}
+
+
+.comunication{
+    text-decoration-line: none;
+    
+}
+
+.comunication:hover{
+    background-color: #0A58CA;
+}
+
+
+
+
+
+
+/* This is footer section */
+
+
+.footer{
+    background-color: darkgrey;
+}
+
+.circle{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    color: black!important;
+    
+    
+}
+
+
+.social_links a{
+    color: black !important;
+    text-decoration-line: none;
+}
+
+.circle:hover{
+    background-color: #1DBF73;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <div class="row social_site">
+                    <div class="col">
+                        <div class="circles">
+                            <a href="https://www.fiverr.com/m___rahman/do-python-script-automation-and-web-scraping-with-python-from-any-website" target="_blank" class="border-radius">fi</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                      <div class="circles">
+                        <a href="https://www.facebook.com/profile.php?id=100076787314573" target="_blank"><i
+                            class="fa-brands fa-facebook"></i></a>
+                      </div>
+          
+                      <div class="circles">
+                        <a href="https://www.linkedin.com/in/mominur-rahman-145461203/" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                      </div>
+                      <div class="circles">
+                        <a href="https://github.com/Mominur1" target="_blank"><i class="fa-brands fa-github"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="social_profiles">
+                    <a href="https://www.fiverr.com/m___rahman/do-python-script-automation-and-web-scraping-with-python-from-any-website" target="_blank"><img src="/img/Fiverr-symbol.jpg" alt="Fiverr" class="fiver_icon"></a>
+
+                    <a href="https://www.facebook.com/profile.php?id=100076787314573" class="social_site" target="_blank"><i class="fa-brands fa-facebook image"></i></a>
+                  </div> -->
+                </div>
+              </div>
+            </div> */
