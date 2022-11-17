@@ -121,7 +121,6 @@
 
 
 .contact{
-    /* background-color: #0DCAF0; */
     background-color: #40E0D0;
 }
 
@@ -158,7 +157,12 @@
 }
 
 
-
+@media only screen and (min-width: 768px){
+    .contact{
+        height: 70vh;
+    }
+    
+}
 
 
 
@@ -192,9 +196,21 @@
 }
 
 
+/* .footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} */
 
 
-
+/* @media only screen and (min-width: 768px){
+    .footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+    
+} */
 
 
 
