@@ -50,6 +50,10 @@
 }
 
 
+.education:hover{
+    background-color: #0A58CA;
+}
+
 /* This is Services.html section */
 
 @media only screen and (max-width: 768px){
