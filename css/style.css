@@ -131,6 +131,13 @@
 .card_class{
     background-color:wheat;
 }
+@media only screen and (min-width: 768px){
+    .card_class{
+        block-size: 190px;
+        writing-mode: horizontal-tb;
+    }
+    
+}
 
 .circle_profile{
     width: 60px;
