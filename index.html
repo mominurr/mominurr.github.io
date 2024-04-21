@@ -1,138 +1,745 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="/img/pic_icon-modified.png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
-  <title>Mominur Rahman</title>
-  <script src="https://kit.fontawesome.com/628ba703e6.js" crossorigin="anonymous"></script>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Web Scraping | Data Scraping With Python</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: DevFolio
+  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
-  <!-- This is banaer section -->
 
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
 
-  <nav class="navbar navbar-expand-lg bg-warning navbar-light">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav m-auto fw-bold">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="About.html" target="_self">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Resume.html">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Services.html">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Contact.html">Contact</a>
-          </li>
+      <h1 class="logo"><a href="index.html">DevFolio</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto " href="#work">Work</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero route bg-image" style="background-image: url(assets/img/background.jpg)">
+    <div class="overlay-itro"></div>
+    <div class="hero-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+          <h1 class="hero-title mb-4">I am Mominur Rahman</h1>
+          <p class="hero-subtitle"><span class="typed"
+              data-typed-items="Python Developer, Freelancer, Web Scrapeing Expert, Data Science Enthuasist"></span></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+        </div>
       </div>
     </div>
-  </nav>
-  
-  <section class="banner-container container-fluid pt-5">
-    <div class="row vh-100">
+  </div><!-- End Hero Section -->
 
+  <main id="main">
 
-
-      <ul class="container-fluid pt-5">
-        <li class="pt-5 pb-3">
-          <div class="col-md-9 banner-column m-auto border border-light text-center p-3 pt-5">
-            <h1 class="display-4 fw-bolder">MOMINUR RAHMAN</h1>
-            <h4>Bsc in Computer Science and Engineering (CSE) at Institute of Science and Technology</h4>
-          </div>
-        </li>
-        <li class="pb-5" style="text-align: center;">
-          <!-- <div class="row social_profile"> -->
-            <!-- <div class="col social_profile m-auto"> -->
-              <div class="circle_profile">
-                <a href="https://www.facebook.com/profile.php?id=100076787314573" target="_blank"><i
-                    class="fa-brands fa-facebook"></i></a>
-              </div>
-  
-              <div class="circle_profile">
-                <a href="https://www.linkedin.com/in/mominur-rahman-145461203/" target="_blank"><i
-                    class="fa-brands fa-linkedin"></i></a>
-              </div>
-              <div class="circle_profile">
-                <a href="https://github.com/mominurr" target="_blank"><i class="fa-brands fa-github"></i></a>
-              </div>
-              <div class="circle_profile">
-                <a href="https://codeforces.com/profile/MR1" target="_blank"><i class="fa-solid fa-code"></i></a>
-              </div>
-              <div class="circle_profile">
-                <a href="https://join.skype.com/invite/ydD3jWznZ4cC" target="_blank"><i class="fa-solid fa-rectangle-code"></i><i class="fa-brands fa-skype"></i></a>
-              </div>
-            <!-- </div> -->
-          <!-- </div> -->
-        </li>
-      </ul>
-    </div>
-
-  </section>
-
-
-
-  <!-- This is footer section -->
-
-  <section>
-    <div class="footer">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about-mf sect-pt4 route">
       <div class="container">
-        <div class="row py-5">
-          <div class="col text-center">
-            <h5><em>“Work hard in silence, let your success be your noise”</em></h5>
-            <br>
-            <p><b>Frank Ocean</b></p>
-          </div>
-        </div>
-
-        <div class="row social_links">
-          <div class="col text-center pb-5">
-            <div class="circle">
-              <a href="https://www.facebook.com/profile.php?id=100076787314573" target="_blank"><i
-                  class="fa-brands fa-facebook"></i></a>
-            </div>
-
-            <div class="circle">
-              <a href="https://www.linkedin.com/in/mominur-rahman-145461203/" target="_blank"><i
-                  class="fa-brands fa-linkedin"></i></a>
-            </div>
-            <div class="circle">
-              <a href="https://github.com/mominurr" target="_blank"><i class="fa-brands fa-github"></i></a>
-            </div>
-          </div>
-        </div>
-
         <div class="row">
-          <div class="col text-center">
-            <p> &copy;All Right Reserved To MOMINUR RAHMAN</p>
+          <div class="col-sm-12">
+            <div class="box-shadow-full">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="row">
+                    <div class="col-sm-6 col-md-5">
+                      <div class="about-img">
+                        <img src="assets/img/mominur_rahman.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                      </div>
+                    </div>
+                    <div class="col-sm-6 col-md-7">
+                      <div class="about-info">
+                        <p><span class="title-s">Name: </span> <span>Mominur Rahman</span></p>
+                        <p><span class="title-s">Profile: </span> <span>Python Developer</span></p>
+                        <p><span class="title-s">Email: </span> <span>contact@mominur.dev</span></p>
+                        <p><span class="title-s">Phone: </span> <span>(+880) 96963-25750</span></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="skill-mf">
+                    <p class="title-s">Skill</p>
+                    <span>Python</span> <span class="pull-right">95%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Data Science</span> <span class="pull-right">60%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>Web Scraping</span> <span class="pull-right">95%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>C/C++ (CP ONLY)</span> <span class="pull-right">95%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>HTML</span> <span class="pull-right">95%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>CSS3</span> <span class="pull-right">90%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>MySQL</span> <span class="pull-right">90%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <span>MongoDB</span> <span class="pull-right">95%</span>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95"
+                        aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="about-me pt-4 pt-md-0">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        About me
+                      </h5>
+                    </div>
+                    <p class="lead">
+                      I'm a seasoned Data Scientist specializing in Web Scraping, boasting 1.5+ years of experience.
+                      Proficient in Python, C, and C++, I've driven successful data analysis projects, uncovering
+                      insights from intricate datasets. My expertise spans data science, ML, and predictive analytics,
+                      empowering me to craft efficient, data-powered solutions. I excel in automating data scraping,
+                      enhancing productivity. Notably, I pioneered an automated scraping solution, streamlining
+                      processes. My strong communication fosters seamless collaboration. Equipped with problem-solving
+                      prowess, I'm primed to excel as your <b>'Data Scientist | Web Scraping Expert'</b>, elevating your
+                      team.
+                    </p>
+                    <p class="lead">
+                      <b>Programming Languages</b>: Python, C, C++.<br /><br />
+
+                      <b>Python Libraries</b>: scikit-learn, pandas, seaborn, matplotlib, numpy, folium, scipy,
+                      selenium,
+                      requests, beautifulSoup4, mysql-connector-python, pymongo, tkinter, PySimpleGUI.<br /><br />
+
+                      <b>Front-End Development</b>: HTML5, CSS.<br /><br />
+
+                      <b>Databases</b>Database: Mysql, MongoDB.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services-mf pt-5 route">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="title-box text-center">
+              <h3 class="title-a">
+                Services
+              </h3>
+              <p class="subtitle-a">
+                As a professional service provider, we pride ourselves on delivering exceptional solutions tailored to
+                meet your needs.
+              </p>
+              <div class="line-mf"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-bar-chart-fill"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Data Analysis</h2>
+                <p class="s-description text-center">
+                  My data analysis services are designed to provide insightful interpretations, enabling informed
+                  decision-making for your business.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-globe"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Web Development</h2>
+                <p class="s-description text-center">
+                  Elevate your online presence with our expert web development solutions, crafted to captivate and
+                  engage your audience.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-robot"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Web Scraping</h2>
+                <p class="s-description text-center">
+                  Harness the power of web scraping to gather valuable data efficiently and accurately, driving
+                  actionable insights for your business.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-filetype-py"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Python Development</h2>
+                <p class="s-description text-center">
+                  My Python development services are tailored to bring your innovative ideas to life, delivering robust
+                  and scalable solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-graph-up-arrow"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Data Science</h2>
+                <p class="s-description text-center">
+                  Dive deep into your data universe with our comprehensive data science services, unlocking valuable
+                  insights to drive your business forward.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-person-raised-hand"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Tech Assistant</h2>
+                <p class="s-description text-center">
+                  Stay ahead of the curve with our dedicated tech assistant services, providing reliable support to
+                  optimize your technological endeavors.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Services Section -->
 
 
+    <!-- ======= Counter Section ======= -->
+    <div class="section-counter paralax-mf bg-image" style="background-image: url(assets/img/counters-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-check"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="200" data-purecounter-duration="1"
+                  class="counter purecounter"></p>
+                <span class="counter-text">WORKS COMPLETED</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-journal-richtext"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1"
+                  class="counter purecounter"></p>
+                <span class="counter-text">YEARS OF EXPERIENCE</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-people"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="110" data-purecounter-duration="1"
+                  class="counter purecounter"></p>
+                <span class="counter-text">TOTAL CLIENTS</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3 col-lg-3">
+            <div class="counter-box pt-4 pt-md-0">
+              <div class="counter-ico">
+                <span class="ico-circle"><i class="bi bi-award"></i></span>
+              </div>
+              <div class="counter-num">
+                <p data-purecounter-start="0" data-purecounter-end="0" data-purecounter-duration="1"
+                  class="counter purecounter"></p>
+                <span class="counter-text">AWARD WON</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Counter Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="work" class="portfolio-mf sect-pt4 route">
+      <div class="container" bis_skin_checked="1">
+        <div class="row" bis_skin_checked="1">
+          <div class="col-sm-12" bis_skin_checked="1">
+            <div class="title-box text-center" bis_skin_checked="1">
+              <h3 class="title-a">
+                Portfolio
+              </h3>
+              <p class="subtitle-a">
+                Explore some of my projects showcasing cutting-edge applications of data science and web scraping using
+                Python.
+              </p>
+              <div class="line-mf" bis_skin_checked="1"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row" bis_skin_checked="1">
+          <div class="col-md-4" bis_skin_checked="1">
+            <div class="work-box" bis_skin_checked="1">
+              <a href="https://github.com/mominurr/Web-Scraping-Projects" target="_blank"
+                data-gallery="portfolioGallery" class="portfolio-lightbox" bis_skin_checked="1">
+                <div class="work-img" bis_skin_checked="1">
+                  <img src="assets/img/webscraping.png" alt="" class="img-thumbnail" style="
+    height: 250px;
+    width: -webkit-fill-available;
+">
+                </div>
+              </a>
+              <div class="work-content" bis_skin_checked="1">
+                <div class="row" bis_skin_checked="1">
+                  <div class="col-sm-8" bis_skin_checked="1">
+                    <h2 class="w-title">Web Scraping</h2>
+                    <div class="w-more" bis_skin_checked="1">
+                      <span class="w-ctegory">Python</span> / <span class="w-date">The automated extraction of data from
+                        websites.</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4" bis_skin_checked="1">
+                    <div class="w-like" bis_skin_checked="1">
+                      <a href="https://github.com/mominurr/Web-Scraping-Projects" bis_skin_checked="1"> <span
+                          class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" bis_skin_checked="1">
+            <div class="work-box" bis_skin_checked="1">
+              <a href="https://github.com/mominurr/oibsip_task2" data-gallery="portfolioGallery"
+                class="portfolio-lightbox" bis_skin_checked="1">
+                <div class="work-img" bis_skin_checked="1">
+                  <img src="assets/img/Average-Estimated-Unemployment-Rate-by-States.png" alt="" class="img-thumbnail"
+                    style="
+    height: 250px;
+    width: -webkit-fill-available;
+">
+                </div>
+              </a>
+              <div class="work-content" bis_skin_checked="1">
+                <div class="row" bis_skin_checked="1">
+                  <div class="col-sm-8" bis_skin_checked="1">
+                    <h2 class="w-title">Unemployment Analysis</h2>
+                    <div class="w-more" bis_skin_checked="1">
+                      <span class="w-ctegory">Data Science</span> / <span class="w-date">This project aims to analyze and visualize unemployment-related data.</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4" bis_skin_checked="1">
+                    <div class="w-like" bis_skin_checked="1">
+                      <a href="https://github.com/mominurr/oibsip_task2" bis_skin_checked="1"> <span
+                          class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4" bis_skin_checked="1">
+            <div class="work-box" bis_skin_checked="1">
+              <a href="https://github.com/mominurr/oibsip_task3" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                bis_skin_checked="1">
+                <div class="work-img" bis_skin_checked="1">
+                  <img src="assets/img/car_actual_vs_predicted.png" alt="" class="img-fluid" style="
+    height: 250px;
+    width: -webkit-fill-available;
+">
+                </div>
+              </a>
+              <div class="work-content" bis_skin_checked="1">
+                <div class="row" bis_skin_checked="1">
+                  <div class="col-sm-8" bis_skin_checked="1">
+                    <h2 class="w-title">Car Price Prediction</h2>
+                    <div class="w-more" bis_skin_checked="1">
+                      <span class="w-ctegory">Data Science</span> / <span class="w-date">This project focuses on predicting the selling price of cars.</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4" bis_skin_checked="1">
+                    <div class="w-like" bis_skin_checked="1">
+                      <a href="https://github.com/mominurr/oibsip_task3" bis_skin_checked="1"> <span class="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ======= Testimonials Section ======= -->
+    <div class="testimonials paralax-mf bg-image" style="background-image: url(assets/img/overlay-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+
+            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="testimonial-box">
+                    <div class="author-test">
+                      <img src="assets/img/testimonial-2.jpg" alt="" class="rounded-circle b-shadow-a">
+                      <span class="author">Xavi Alonso</span>
+                    </div>
+                    <div class="content-test">
+                      <p class="description lead">
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-box">
+                    <div class="author-test">
+                      <img src="assets/img/testimonial-4.jpg" alt="" class="rounded-circle b-shadow-a">
+                      <span class="author">Marta Socrate</span>
+                    </div>
+                    <div class="content-test">
+                      <p class="description lead">
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
+          
+        </div> -->
+          </div>
+        </div>
+      </div>
+    </div><!-- End Testimonials Section -->
+
+    <!-- ======= Blog Section ======= -->
+<section id="blog" class="blog-mf sect-pt4 route">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="title-box text-center">
+          <h3 class="title-a">
+            Blog
+          </h3>
+          <p class="subtitle-a">
+            My writings on the topics I like
+          </p>
+          <div class="line-mf"></div>
+        </div>
       </div>
     </div>
-  </section>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card card-blog">
+          <div class="card-img">
+            <a href="https://medium.com/@mominurr518"><img src="assets/img/web-scraping-thumb.jpg" alt="" class="img-fluid"></a>
+          </div>
+          <div class="card-body">
+            <div class="card-category-box">
+              <div class="card-category">
+                <h6 class="category">Technology</h6>
+              </div>
+            </div>
+            <h3 class="card-title"><a href="https://medium.com/@mominurr518">What is Webscraping?</a></h3>
+            <p class="card-description">
+              Imagine a tireless data assistant that combs through websites at lightning speed. Web scraping automates this by extracting specific information from a website's code, not unlike picking golden nuggets from a digital mine. This harvested data becomes valuable fuel for analysis, research, and even automating tasks on the web. 
+            </p>
+          </div>
+          <div class="card-footer">
+            <div class="post-author">
+              <a href="#">
+                <img src="assets/img/mominur_rahman.jpg" alt="" class="avatar rounded-circle">
+                <span class="author">Mominur Rahman</span>
+              </a>
+            </div>
+            <div class="post-date">
+              <span class="bi bi-clock"></span> 10 min
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card card-blog">
+          <div class="card-img">
+            <a href="https://medium.com/@mominurr518"><img src="assets/img/data-science.jpg" alt="" class="img-fluid"></a>
+          </div>
+          <div class="card-body">
+            <div class="card-category-box">
+              <div class="card-category">
+                <h6 class="category">Technology</h6>
+              </div>
+            </div>
+            <h3 class="card-title"><a href="https://medium.com/@mominurr518">What is Data Science?</a></h3>
+            <p class="card-description">
+              Data science is an interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract insights and knowledge from structured and unstructured data. It combines techniques from mathematics, statistics, computer science, and domain knowledge to analyze and interpret complex data sets.
+            </p>
+          </div>
+          <div class="card-footer">
+            <div class="post-author">
+              <a href="#">
+                <img src="assets/img/mominur_rahman.jpg" alt="" class="avatar rounded-circle">
+                <span class="author">Mominur Rahman</span>
+              </a>
+            </div>
+            <div class="post-date">
+              <span class="bi bi-clock"></span> 10 min
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card card-blog">
+          <div class="card-img">
+            <a href="https://medium.com/@mominurr518"><img src="assets/img/python.jpg" alt="" class="img-fluid"></a>
+          </div>
+          <div class="card-body">
+            <div class="card-category-box">
+              <div class="card-category">
+                <h6 class="category">Technology</h6>
+              </div>
+            </div>
+            <h3 class="card-title"><a href="https://medium.com/@mominurr518">What is Python?</a></h3>
+            <p class="card-description">
+              Python is a high-level, interpreted programming language known for its simplicity and readability. It is widely used for various applications such as web development, data analysis, artificial intelligence, scientific computing, and more. Python's extensive standard library and active community make it a popular choice for developers.
+            </p>
+          </div>
+          <div class="card-footer">
+            <div class="post-author">
+              <a href="#">
+                <img src="assets/img/mominur_rahman.jpg" alt="" class="avatar rounded-circle">
+                <span class="author">Mominur Rahman</span>
+              </a>
+            </div>
+            <div class="post-date">
+              <span class="bi bi-clock"></span> 10 min
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section><!-- End Blog Section -->
 
 
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route"
+      style="background-image: url(assets/img/overlay-bg.jpg)">
+      <div class="overlay-mf"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="contact-mf">
+              <div id="contact" class="box-shadow-full">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="title-box-2">
+                      <h5 class="title-left">
+                        Send Message Us
+                      </h5>
+                    </div>
+                    <div>
+                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                                required>
+                            </div>
+                          </div>
+                          <div class="col-md-12 mb-3">
+                            <div class="form-group">
+                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                                required>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <textarea class="form-control" name="message" rows="5" placeholder="Message"
+                                required></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12 text-center my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                          </div>
+                          <div class="col-md-12 text-center">
+                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="title-box-2 pt-4 pt-md-0">
+                      <h5 class="title-left">
+                        Get in Touch
+                      </h5>
+                    </div>
+                    <div class="more-info">
+                      <p class="lead">
 
+                      </p>
+                      <ul class="list-ico">
+                        <li><span class="bi bi-geo-alt"></span>Dhaka, Bangladesh</li>
+                        <li><span class="bi bi-phone"></span>(+880) 96963-25750</li>
+                        <li><span class="bi bi-envelope"></span> contact@mominur.dev</li>
+                      </ul>
+                    </div>
+                    <div class="socials">
+                      <ul>
+                        <li><a href="https://www.facebook.com/mominurr518"><span class="ico-circle"><i class="bi bi-facebook"></i></span></a></li>
+                        <!-- <li><a href=""><span class="ico-circle"><i class="bi bi-instagram"></i></span></a></li> -->
+                        <li><a href="https://twitter.com/mominur_rahma_n"><span class="ico-circle"><i class="bi bi-twitter"></i></span></a></li>
+                        <li><a href="http://linkedin.com/in/mominur-rahman-145461203/"><span class="ico-circle"><i class="bi bi-linkedin"></i></span></a></li>
+                        <li><a href="https://github.com/mominurr"><span class="ico-circle"><i class="bi bi-github"></i></span></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Contact Section -->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="/js/tracker.js"></script>
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="copyright-box">
+            <p class="copyright">&copy; Copyright <strong>Mominur Rahman</strong>. All Rights Reserved</p>
+            <div class="credits">
+              <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
+            -->
+              <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
