@@ -1,274 +1,124 @@
-/* This is index.html file section */
+/* this is body section */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* this is banner section */
 .banner-container{
-    /* background-color:#0D6EFD; */
-    background-color: #40E0D0;
-
+    background-color: #FFE0B5;
 }
 
+/* thie is banner column */
 .banner-column{
-    background-color: #FFC107;
-}
-
-.navbar{
-    top: 0;
-    position: sticky;
-    z-index: 2;
+    background-color: #FF9843;
 }
 
 
-
-/* This About.html file section*/
-
-@media only screen and (max-width: 768px){
-    .about-container{
-        background-color: #40E0D0;
-        
-    }
+/* this is about section */
+.about-container{
+    background-color: #CDFADB;
 }
 
-@media only screen and (min-width: 768px) {
-    .about-container{
-        background-color: #40E0D0;
-        height: 100vh
-        
-    }
+/* this is experience section */
+.experience-container{
+    background-color: #F6FDC3;
 }
 
-
-/* This is Resume.html file section */
-@media only screen and (max-width: 768px){
-    .resume-container{
-        background-color: #40E0D0;
-    }
+/* this is skills section */
+.skills-container{
+    background-color: #CDFADB;
 }
 
-@media only screen and (min-width: 768px){
-    .resume-container{
-        background-color: #40E0D0;
-        height: 100%
-    }
-}
-
-
-.education:hover{
-    background-color: #0A58CA;
-}
-
-/* This is Services.html section */
-
-@media only screen and (max-width: 768px){
-    .services-container{
-        /* background-color: #0DCAF0; */
-        background-color: #40E0D0;
-    }
-}
-
-@media only screen and (min-width: 768px){
-    .services-container{
-        /* background-color: #0DCAF0; */
-        background-color: #40E0D0;
-        
-    }
-}
-
-.gig-image{
-    height: 250px;
-    width: 450px;
-}
-
-.gig-modified-image{
-    height: 100px;
-    width: 100px;
-}
-
-@media only screen and (max-width: 768px){
-    .fiverr-account{
-        border-bottom: none;
-        border-color: black;
-        border-style: solid;
-        border-width: 1px;
-        border-bottom: none;
-        
-    }
-}
-
-@media only screen and (min-width: 768px){
-    .fiverr-account{
-        border-right: none;
-        border-color: black;
-        border-style: solid;
-        border-width: 1px;
-        border-right: none;
-        
-    }
-}
-
-/* .fiverr-account{
-    border-right: none;
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
-    border-right: none;
-} */
-
-.gig-link-tag{
-    text-decoration-line: none;
-}
-
-
-
-
-
-/* This is contact.html section */
-
-
-
-
-.contact{
-    background-color: #40E0D0;
-}
-
-.card_class{
-    background-color:wheat;
-}
-@media only screen and (min-width: 768px){
-    .card_class{
-        block-size: 190px;
-        writing-mode: horizontal-tb;
-    }
-    
-}
-
-.circle_profile{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    display: inline-block;
-    font-size: 35px;
-    /* text-align: center; */
-    /* color: black!important; */
-    
-    
-}
-
-
-.social_profile a{
-    /* color: black !important; */
-    text-decoration-line: none;
-}
-
-
-.comunication{
-    text-decoration-line: none;
-    
-}
-
-.comunication:hover{
-    background-color: #0A58CA;
-}
-
-
-@media only screen and (min-width: 768px){
-    .contact{
-        height: 70vh;
-    }
-    
-}
-
-
-
-/* This is footer section */
-
-
-.footer{
-    background-color: darkgrey;
+.education-container{
+    background-color: #F6FDC3;
 }
 
 .circle{
-    width: 60px;
-    height: 60px;
+    background-color: #FFD0EC;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    display: inline-block;
-    font-size: 40px;
-    text-align: center;
+}
+
+/* this is navbar section */
+.nav-item:hover{
+    background-color: #FFF7F1;
+    border-radius: 10px;
+}
+
+/* this is project section */
+.project-container{
+    background-color: #F6FDC3;
+}
+
+/* this is services section */
+.services-container{
+    background-color: #CDFADB;
+}
+
+
+/* this is gallery section */
+.gallery-container{
+    background-color: #CDFADB;
+}
+
+.brandingWrapper{
+    display: none;
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact-container{
+    background-color: #25274d;
+}
+.contact{
+    padding: 4%;
+    height: 400px;
+}
+.col-md-4{
+    background: #712CF9;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-8{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: #198754;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+.icon-lists{
     color: black!important;
-    
+}
+.icon-lists:hover{
+    background-color: white;
+    border-radius: 5px;
     
 }
-
-
-.social_links a{
-    color: black !important;
-    text-decoration-line: none;
+.icons:hover{
+    background-color: #198452;
+    border-radius: 5px;
 }
-
-.circle:hover{
-    background-color: #1DBF73;
-}
-
-
-/* .footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-} */
-
-
-/* @media only screen and (min-width: 768px){
-    .footer{
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-    }
-    
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* <div class="row social_site">
-                    <div class="col">
-                        <div class="circles">
-                            <a href="https://www.fiverr.com/m___rahman/do-python-script-automation-and-web-scraping-with-python-from-any-website" target="_blank" class="border-radius">fi</a>
-                        </div>
-                    </div>
-                    <div class="col">
-                      <div class="circles">
-                        <a href="https://www.facebook.com/profile.php?id=100076787314573" target="_blank"><i
-                            class="fa-brands fa-facebook"></i></a>
-                      </div>
-          
-                      <div class="circles">
-                        <a href="https://www.linkedin.com/in/mominur-rahman-145461203/" target="_blank"><i
-                            class="fa-brands fa-linkedin"></i></a>
-                      </div>
-                      <div class="circles">
-                        <a href="https://github.com/Mominur1" target="_blank"><i class="fa-brands fa-github"></i></a>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- <div class="social_profiles">
-                    <a href="https://www.fiverr.com/m___rahman/do-python-script-automation-and-web-scraping-with-python-from-any-website" target="_blank"><img src="/img/Fiverr-symbol.jpg" alt="Fiverr" class="fiver_icon"></a>
-
-                    <a href="https://www.facebook.com/profile.php?id=100076787314573" class="social_site" target="_blank"><i class="fa-brands fa-facebook image"></i></a>
-                  </div> -->
-                </div>
-              </div>
-            </div> */
