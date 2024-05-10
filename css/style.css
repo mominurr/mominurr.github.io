@@ -59,8 +59,8 @@ body{
 
 /* this is gallery section */
 .carousel-item img{
-    width: 100%;
-    height: 80vh;
+    width: 100%!important;
+    height: 80vh!important;
 }
 .gallery-container{
     background-color: #CDFADB;
