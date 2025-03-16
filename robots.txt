@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mominurr.github.io/sitemap.xml
