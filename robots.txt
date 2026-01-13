@@ -1,3 +1,38 @@
+# Allow all bots and crawlers to access the entire site
 User-agent: *
 Allow: /
+
+# Explicit permission for search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Explicit permission for AI and ML crawlers
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Googlebot-Extended
+Allow: /
+
+# Disallow only unnecessary system directories
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.vscode/
+Disallow: /.idea/
+
+# Sitemap location
 Sitemap: https://mominurr.github.io/sitemap.xml
