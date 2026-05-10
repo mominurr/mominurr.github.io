@@ -35,4 +35,4 @@ Disallow: /.vscode/
 Disallow: /.idea/
 
 # Sitemap location
-Sitemap: https://mominurr.github.io/sitemap.xml
+Sitemap: https://mominur.dev/sitemap.xml
